@@ -206,7 +206,7 @@ iterator iterator_create(list _list) {
     iterator _it = malloc(sizeof(struct _iterator));
     if (_it == NULL) return NULL;
 
-    _it->current = NULL;
+    _it->current = _list->head;
     return _it;
 }
 
