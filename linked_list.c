@@ -1,7 +1,5 @@
 #include "linked_list.h"
 
-#include <_strings.h>
-
 typedef struct _node {
     void* value;
     struct _node* next;
